@@ -1,4 +1,4 @@
-# 🌍 IBAN Validator
+#  IBAN Validator
 
 A simple and professional IBAN Validator built with **Python** and **Streamlit**.  
 It allows you to check multiple IBANs at once and see if they are valid.
