@@ -1,25 +1,20 @@
-# IBAN Validator
+# 🌍 IBAN Validator
 
-A professional Python project to validate International Bank Account Numbers (IBANs) with both **single** and **batch validation**.
+A simple and professional IBAN Validator built with **Python** and **Streamlit**.  
+It allows you to check multiple IBANs at once and see if they are valid.
 
-## Features
-- Validates IBANs from multiple countries (DE, PK, FR, GB, etc.)
-- Checks IBAN length, characters, checksum, and country code
-- Batch validation via Streamlit web interface
-- Professional unit tests with `pytest`
+---
 
-## How to Run
+## 🚀 Features
+- ✅ Validate single or multiple IBANs (one per line).  
+- 🌐 Supports IBAN formats from multiple countries (including Pakistan 🇵🇰).  
+- 📊 Displays results in a clean table using Streamlit.  
+- 🔑 Easy to use, lightweight, and beginner-friendly.
 
-### 1. Run tests
+---
+
+## 🖥️ Demo
+Run the app locally with **Streamlit**:
+
 ```bash
-pip install -r requirements.txt
-pytest -v
-
-git init
-git add .
-git commit -m "Initial commit - IBAN Validator project"
-git branch -M main
-git remote add origin https://github.com/alisuports70-droid/IBAN-Validator
-git push -u origin main
-
-
+streamlit run app.py
